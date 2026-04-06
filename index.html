@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry 🥺</title>
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="music-toggle" id="musicToggle" role="button" aria-label="Toggle Background Music">
+        🎵 Music On/Off
+    </div>
+    
+    <div class="floating-hearts-container" id="heartsContainer"></div>
+
+    <div class="container fade-in">
+        <div class="card">
+            <div class="image-container">
+                <!-- Using the AI generated crying bear sticker -->
+                <img src="crying_bear.png" alt="Cute crying bear holding a heart" class="sticker">
+            </div>
+            
+            <h1 class="title">I messed up... 🥺</h1>
+            
+            <div class="letter-container">
+                <p class="letter-text">
+                    Hey love,<br><br>
+                    I know I hurt your feelings, and I am so, absolutely sorry. You mean the world to me, and seeing you upset breaks my heart. 💔<br><br>
+                    I promise to do better and listen more. You are my sunshine, and everything feels so cold when we're not okay. Please know that my apology comes from the bottom of my heart.<br><br>
+                    Will you let me make it up to you? 🥺
+                </p>
+            </div>
+
+            <button class="forgive-btn" id="forgiveBtn">
+                Click if you forgive me 💖
+            </button>
+            <p class="thank-you-msg" id="thankYouMsg">Yay! I love you so much! 🥰</p>
+        </div>
+    </div>
+
+    <div id="player" style="display: none;"></div>
+    
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
